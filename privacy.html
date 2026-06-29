@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +17,7 @@
             background: #fff;
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #111;
         }
 
@@ -28,6 +29,10 @@
             margin-top: 32px;
         }
 
+        h3 {
+            margin-top: 24px;
+        }
+
         ul {
             padding-left: 20px;
         }
@@ -35,18 +40,35 @@
         .updated {
             color: #666;
         }
+
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: June 2026</p>
 
-<p>Thank you for using eSign.</p>
+<p class="updated">
+Last updated: June 2026
+</p>
 
 <p>
-eSign is designed with privacy in mind. Your documents, signatures, and stamps
-are stored locally on your device and are not uploaded to our servers.
+Thank you for using eSign.
+</p>
+
+<p>
+eSign is designed with privacy in mind. Your documents, signatures, stamps,
+and exported files are stored locally on your device by default. We do not
+upload them to our own servers. Some optional features, such as AI-powered
+signature extraction, require securely transmitting the selected image to a
+trusted third-party AI service solely to process your request.
 </p>
 
 <h2>Information We Collect</h2>
@@ -54,19 +76,46 @@ are stored locally on your device and are not uploaded to our servers.
 <h3>Documents and Signatures</h3>
 
 <p>
-eSign allows you to import, sign, stamp, and export documents and images.
-All imported documents, signatures, stamps, and exported files remain on your
-device unless you choose to share them using your device's built-in sharing features.
+eSign allows you to import, sign, stamp, and export PDF documents and images.
+Your imported documents, signatures, stamps, and exported files remain on your
+device unless you choose to share them using your device's built-in sharing
+features.
 </p>
 
 <p>
-We do not collect, store, or access the contents of your documents.
+We do not collect, store, or access the contents of your documents or signatures
+on our own servers.
+</p>
+
+<h3>AI Signature Extraction</h3>
+
+<p>
+eSign offers an optional AI-powered feature that extracts handwritten signatures
+from images.
+</p>
+
+<p>
+When you choose to use this feature, the selected image is securely transmitted
+to a trusted third-party AI service solely for the purpose of extracting the
+handwritten signature. This processing occurs only when you explicitly use the
+feature.
+</p>
+
+<p>
+The uploaded image is processed only to generate the extracted signature and is
+not retained or accessible by eSign. Once processing is complete, the extracted
+signature is returned directly to your device.
+</p>
+
+<p>
+eSign does not use your uploaded images, documents, or signatures to train AI
+models.
 </p>
 
 <h3>Analytics and Diagnostics</h3>
 
 <p>
-To improve the app and fix issues, eSign uses:
+To improve the app and resolve technical issues, eSign uses:
 </p>
 
 <ul>
@@ -76,56 +125,79 @@ To improve the app and fix issues, eSign uses:
 
 <p>
 These services may collect anonymous usage information, device information,
-app performance data, and crash reports.
+application performance metrics, and crash reports.
 </p>
 
 <h3>In-App Purchases</h3>
 
 <p>
-eSign uses RevenueCat and Apple's App Store to manage subscriptions and purchases.
-RevenueCat may process anonymous purchase-related information necessary to validate purchases.
+eSign uses RevenueCat and Apple's App Store to manage subscriptions and
+one-time purchases.
 </p>
 
 <p>
-We do not collect payment card information. All payments are processed by Apple.
+RevenueCat may process anonymous purchase-related information necessary to
+validate purchases and subscriptions.
+</p>
+
+<p>
+We do not collect or store your payment information. All payments are securely
+processed by Apple.
 </p>
 
 <h2>How We Use Information</h2>
 
+<p>
+Anonymous information collected through analytics and diagnostics is used to:
+</p>
+
 <ul>
     <li>Improve app performance</li>
-    <li>Identify and fix crashes</li>
+    <li>Identify and resolve crashes</li>
     <li>Understand feature usage</li>
-    <li>Improve user experience</li>
+    <li>Enhance the overall user experience</li>
 </ul>
 
 <h2>Data Storage</h2>
 
 <p>
-Documents, signatures, stamps, and exported files are stored locally on your device.
-We do not provide cloud storage and do not upload your documents to our servers.
+Documents, signatures, stamps, and exported files are stored locally on your
+device. We do not provide cloud storage and do not upload your documents,
+signatures, or stamps to our own servers.
+</p>
+
+<p>
+If you choose to use the optional AI Signature Extraction feature, the selected
+image is transmitted only for the purpose of processing your request and
+returning the extracted signature to your device.
 </p>
 
 <h2>Children's Privacy</h2>
 
 <p>
-eSign is intended for a general audience and is not directed toward children under 13 years of age.
+eSign is intended for a general audience and is not directed toward children
+under the age of 13.
 </p>
 
 <h2>Third-Party Services</h2>
+
+<p>
+eSign relies on the following third-party services:
+</p>
 
 <ul>
     <li>Apple App Store</li>
     <li>RevenueCat</li>
     <li>Firebase Analytics</li>
     <li>Firebase Crashlytics</li>
+    <li>Third-party AI processing service (used only when the optional AI Signature Extraction feature is used)</li>
 </ul>
 
-<h2>Changes to This Policy</h2>
+<h2>Changes to This Privacy Policy</h2>
 
 <p>
-We may update this Privacy Policy from time to time. Any updates will be reflected
-by updating the date shown above.
+We may update this Privacy Policy from time to time. Any changes will be posted
+on this page and reflected by updating the "Last updated" date above.
 </p>
 
 <h2>Terms of Use</h2>
@@ -141,9 +213,14 @@ for information regarding subscriptions, purchases, and use of the application.
 <h2>Contact</h2>
 
 <p>
-Ziad Kamel<br>
+If you have any questions about this Privacy Policy, please contact:
+</p>
+
+<p>
+<strong>Ziad Kamel</strong><br>
 <a href="mailto:ziadkamel11@gmail.com">ziadkamel11@gmail.com</a>
 </p>
 
 </body>
 </html>
+```
